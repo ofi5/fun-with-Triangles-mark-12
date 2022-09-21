@@ -1,0 +1,99 @@
+*{
+    margin: auto;
+    font-family: 'Bungee Spice', cursive;
+    font-style:italic;
+    
+
+}
+
+:root{
+    background-color: rgb(71, 71, 71);
+}
+
+h1{
+    font-size: 3rem;
+    margin: 20px;
+}
+nav {
+    display: block;
+    background-color: rgb(1, 1, 65);
+    color: rgb(179, 255, 0);
+    text-align: center;
+    padding: 40px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    border: solid 2px grey;
+    font-size: 2rem;
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(40, 70, 70);
+
+}
+
+a:active {
+    background-color: rgb(33, 33, 87);
+}
+
+
+
+#box {
+    font-size: 1.3rem;
+    height: 100%;
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+input {
+    margin: 15px;
+    height: 1.5rem;
+    font-size: 2rem;
+    background-color: black;
+}
+
+button {
+    font-size: 1.4rem;
+    background-color: black;
+    border: solid 2px grey;
+}
+
+#msg {
+    
+    font-size: 1.5rem;
+    background-color: black;
+    width: 15%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+
+input[type=radio] {
+    border: 5px solid black;
+    width: 2%;
+    height: 1.5rem;
+    
+}
+
+#active {
+    background-color: rgb(68, 1, 112);
+}
+
+

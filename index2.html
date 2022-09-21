@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <h1>fun with Triangles</h1>
+        <ul>
+            <li><a href="index1.html">Is it a Nacho</a></li>
+            <li><a href="index2.html" id="active">Quiz time</a></li> 
+            <li><a href="index3.html">Check hypotenuse </a></li>
+            <li><a href="index4.html">Area of a Nacho</a></li>
+        </ul>
+    </nav>
+    <div id="box">
+    <h1>Triangle Quiz</h1>
+    <form class="quizForm">
+        <div class="quesContainer">
+        <p>Angle 1 is 45 ,angle 2 is 35, what is the 3rd angle?</p>
+        <label>acute<input type="radio" name="opt1" value="acute"/></label>
+        <label>right<input type="radio" name="opt1" value="right"/></label>
+        <label>obtuse<input type="radio" name="opt1" value="obtuse"/></label>
+    </div>
+    <div class="quesContainer">
+        <p>2 sides of triangle are equal in length, the triangle is called?</p>
+        <label>isosceles<input type="radio" name="opt2" value="isosceles"/></label>
+        <label>right<input type="radio" name="opt2" value="right"/></label>
+        <label>equilateral<input type="radio" name="opt2" value="equilateral"/></label>
+    </div>
+    
+    
+    </form>
+
+    <button id="btn">Answers</button>
+
+    <div id="msg"></div>
+    </div>
+    <script src="app2.js"></script>
+</body>
+</html>
