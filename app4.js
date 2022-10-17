@@ -6,6 +6,9 @@ const Msg = document.querySelector("#msg");
 const calculateArea = () => {
   if (side1.value === "" || side2.value === "") {
     Msg.innerHTML = "Enter Input";
+  }else if(side1.value<0 || side2.value<0) {
+    Msg.innerHTML = "Enter Positive Values"
+  
   } else {
     let sum = 1;
 

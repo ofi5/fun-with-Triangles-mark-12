@@ -2,7 +2,7 @@ const Quizform = document.querySelector(".quizForm")
 const Btn = document.querySelector('#btn')
 const Msg = document.querySelector("#msg")
 
-correctAnswers = ["obtuse","isosceles"]
+correctAnswers = ["obtuse","isosceles","32cm","20.78"]
 
 function checkAnswers() {
     

@@ -5,7 +5,7 @@ let play;
 function angleCalculator() {
 
     for (let i=0;i<Angles.length;i++){
-        if (Angles[i].value) {
+        if (Angles[i].value>0) {
             play = true;
         }else{
             play=false;
@@ -26,7 +26,7 @@ function angleCalculator() {
     }
 }else{
 
-    msg.innerHTML = "Enter inputs"
+    msg.innerHTML = "Enter positive inputs"
 }
 }
 

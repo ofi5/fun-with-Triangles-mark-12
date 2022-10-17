@@ -13,9 +13,18 @@ const hypotenuseValue = () => {
             play = true;
         }else{
             play=false;
+            Msg.innerHTML = "Enter values"
         }
 
     }
+
+    for (let i=0;i<sides.length;i++){
+        if (sides[i].value<0) {
+        play = false;
+            Msg.innerHTML = "Enter positve values"
+        
+
+    }}
 
     if (play){
     for (let i=0;i<sides.length;i++){
@@ -26,8 +35,6 @@ const hypotenuseValue = () => {
     }   
      hypo = Math.sqrt(sum);
     Msg.innerHTML =`${hypo.toFixed(2)} units`
-    }else{
-        Msg.innerHTML = "Enter inputs"
     }
 
 }
